@@ -33,7 +33,7 @@ class Quiz:
     def __init__(self):
         self.questions = {
             "Python": [
-                ("What is the output of 2**8?", "8"),
+                ("What is the output of 2**3?", "8"),
                 ("Which keyword is used to declare a function in Python?", "def"),
                 ("What does len() return?", "length")
             ],
@@ -105,6 +105,7 @@ class TutorApp:
 
             elif user_input.strip() == "5":
                 print("Closing Tutor App....")
+                print("Goodbye!")
                 break
             
             else:
